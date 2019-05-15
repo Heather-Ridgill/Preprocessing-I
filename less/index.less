@@ -50,10 +50,44 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
+	height: 100%;
+	Background: #f0e68c;
+	font-family: 'Courier New', Courier, monospace;
 }
+
+.Header{
+	// background-image: url ("yellow_pink_top.jpg");
+	background: url(/yellow_pink_top.jpg);
+
+	.name {
+		font-size: 2rem;
+		margin: 10px;
+		text-align: center;
+	}
+	
+	p{
+		text-align: center;
+	}
+}
+
+.contact .icons {
+	padding-right: 3rem;
+}
+
+
+.split-list ul{
+	float: left;
+	margin-left: 1em;
+
+.split-list li{
+		padding: right 5em;
+		line-height: 1.5em;
+		@include font-size(12px);
+	   }
+  }
+
 
